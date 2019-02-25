@@ -45,4 +45,13 @@ for(i in 1:100){
 }
 print(answer)
 ```
+### Norlander's Code 
+
+```{r}
+for (a in 1:100) {
+ if (a %% 3 == 0) {print("Fizz")}
+ else if (a %% 5 == 0) {print("Buzz")}
+ else print(a)
+}
+```
 
